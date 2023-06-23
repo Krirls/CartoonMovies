@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: url(img/steven-universe-the-movie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+#header .logo {
+    color: #987cee;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none; 
+}
+
+#header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header ul li {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+#header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #d3dfe2;
+    border-radius: 2px;
+} 
+
+#header ul li a:hover {
+    background: linear-gradient(45deg, #987cee, rgb(125, 131, 133) );
+    color: rgb(235, 241, 242);
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .content {
+    position: absolute;
+    left: 2px;
+    top: 625px;
+}
+
+section .content .details span {
+    position: relative;
+    top: -245px;
+    left: 100px;
+    color: rgb(235, 241, 242);
+    margin: 12px;
+    font-weight: 400;
+}
+
+.details span:last-child {
+    border: 1px solid rgb(235, 241, 242);
+    padding-top: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.button a {
+    position: relative;
+    top: -205px;
+    left: 108px;
+    color: white;
+    margin: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.button input {
+    position: relative;
+    top: -205px;
+    left: 108px;
+    color: white;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.button .bnt1 {
+    background: #987cee;
+    padding: 20px 45px;
+    border-radius: 2px;
+    transition: 0.5s;
+    border-style: none;
+}
+
+.button .bnt1:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.button .bnt2 {
+    background: #6b57a5;
+    padding: 20px 45px;
+    border-radius: 2px;
+    transition: 0.5s;
+    border-style: none;
+}
+
+.button .bnt2:hover {
+    background: #fff;
+    color: #987cee;
+    font-weight: 600;
+    cursor: pointer;
+}
+
